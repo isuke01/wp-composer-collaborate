@@ -49,10 +49,10 @@ define( 'SAVEQUERIES', getenv('SAVEQUERIES') );
 /* You many want set this manually if this wont work in your case */
 define( 'WP_SHEME', ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || $_SERVER['SERVER_PORT'] == 443)? 'https' : 'http' );
 /* Custom Wp folders setup */
-define('WP_SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'] .'/testcomposer' );
+define('WP_SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'] );
 
-define('WP_HOME', WP_SHEME.'://' . $_SERVER['HTTP_HOST'] . '/testcomposer' );
-define('WP_SITEURL', WP_SHEME.'://' . $_SERVER['HTTP_HOST'] . '/testcomposer/system');
+define('WP_HOME', WP_SHEME.'://' . $_SERVER['HTTP_HOST'] );
+define('WP_SITEURL', WP_SHEME.'://' . $_SERVER['HTTP_HOST'] . '/system');
 
 /* We store all medias inside main folder */
 define( 'UPLOADS', '../media' );
@@ -77,3 +77,6 @@ define( 'WP_DEFAULT_THEME', 'vutheme' );
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/** SET WORDPRESS THEMES FOLDER  */
+register_theme_directory( WP_THEME_DIR );
