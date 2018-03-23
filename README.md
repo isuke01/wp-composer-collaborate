@@ -31,15 +31,24 @@ Themes are installed into directory `modules\themes\{name}`
 Media files are stored into `media` directory
 
 ##### WORDPRESS MUST USE PLUGINS 
+
 Plugins are installed into directory `modules\mu-plugins\{name}`
 
 ### Installing
 
-After download this repository 
 `This setup also contain Custom download for ACF PRO if you wish.`
 
 * Check if `.gitignore` fits your needs
 * If you wish change directories however you want. It can set it inside `wp-config.php` then `composer.json` and `index.php` for system directory
 * Create file your `.env`.  you can find example `.env-example`
-* Add all plugins, themes etc you need into `composer.json` file 
+* Add all plugins, themes etc you want into `composer.json` file 
 * You can use `Advenced custom fields PRO` by adding your LICENSE key into .env file.
+
+After those steps you want to do 
+```
+composer install
+```
+For updates
+```
+composer update
+```
