@@ -43,7 +43,7 @@ This setup also contain Custom download for ACF PRO if you wish.
 * Check if `.gitignore` fits your needs
 * If you wish change directories however you want. It can set it inside `wp-config.php` then `composer.json` and `index.php` for system directory
 * Create file your `.env`.  you can find example `.env-example`
-* Add all plugins, themes etc you want into `composer.json` file 
+* Add all plugins, themes etc you want into `composer.json` file you can check for those [WordPress Packagist](https://wpackagist.org/)
 * You can use `Advenced custom fields PRO` by adding your LICENSE key into .env file.
 * Create as part of your project repo.
 
@@ -57,11 +57,15 @@ For updates
 composer update
 ```
 
+### Built With
+* [PHP dotenv](https://github.com/vlucas/phpdotenv) - Required for .ENV
+* [WordPress Packagist](https://wpackagist.org/) - WP repo for composer
+* [Composer](https://github.com/composer/installers) - Composer installers
+
 ### Notes
 
-##### Other prenium plugins?
+** Other prenium plugins? **
 Sorry I have no idea yet, mostly because I never need other :)
-
 
 ### LICENSE
 ```
