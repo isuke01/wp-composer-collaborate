@@ -1,0 +1,8 @@
+.DS_STORE
+.env
+.fabfile
+/node_modules/
+
+/system/*
+/media/*
+/modules/plugins/*
