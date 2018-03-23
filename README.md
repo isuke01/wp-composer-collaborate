@@ -64,7 +64,7 @@ composer update
 
 ### Notes
 
-** Other prenium plugins? **
+#####Other prenium plugins?
 Sorry I have no idea yet, mostly because I never need other :)
 
 ### LICENSE
