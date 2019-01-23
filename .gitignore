@@ -1,7 +1,8 @@
 .DS_STORE
 .env
 .fabfile
-/node_modules/
+node_modules/
+**/node_modules
 
 /system/*
 /media/*
