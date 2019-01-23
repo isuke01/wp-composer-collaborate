@@ -31,8 +31,7 @@
       "vlucas/phpdotenv": "^2.2",
       "johnpbloch/wordpress": "^4.8",
       "advanced-custom-fields/advanced-custom-fields-pro": "^5.6.0",
-      "wpackagist-plugin/acf-to-rest-api": "^3.0.0",
-      "wpackagist-plugin/w3-total-cache" : "^0.9.5.4"
+      "wpackagist-plugin/wp-api-menus" : "^0.9.5.4"
     },
     "extra": {
       "wordpress-install-dir": "system",
