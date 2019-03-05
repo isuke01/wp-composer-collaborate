@@ -4,7 +4,7 @@ This is base wordpress setup based on composer.
 
 ## Getting Started 
 
-Have you ever problems with collaborate WordPress themes? There is a solution! 
+Have you ever problems to collaborate in team using WordPress? There is a solution! 
 Just download this repository and setup it your way.
 
 This allow you create your WP setup based on composer. Which solve all problem during collaboration.
