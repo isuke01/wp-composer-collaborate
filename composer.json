@@ -10,7 +10,7 @@
           "type": "package",
           "package": {
               "name": "advanced-custom-fields/advanced-custom-fields-pro",
-              "version": "5.6.7",
+              "version": "5.7.10",
               "type": "wordpress-plugin",
               "dist": {
                 "type": "zip",
@@ -39,9 +39,9 @@
     "extra": {
       "wordpress-install-dir": "system",
       "installer-paths": {
-        "modules/plugins/{$name}/": ["type:wordpress-plugin"],
-        "modules/themes/{$name}/": ["type:wordpress-theme"],
-        "modules/mu-plugin/{$name}/": ["type:wordpress-muplugin"]
+        "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "wp-content/themes/{$name}/": ["type:wordpress-theme"],
+        "wp-content/mu-plugin/{$name}/": ["type:wordpress-muplugin"]
       }
     }
   }
