@@ -6,4 +6,4 @@ node_modules/
 
 /system/*
 /media/*
-/modules/plugins/*
+/wp-content/plugins/*
