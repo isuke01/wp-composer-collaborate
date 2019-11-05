@@ -28,7 +28,17 @@ Themes are installed into directory `wp-content\themes\{name}`
 
 ##### MEDIA FILES 
 
-Media files are stored into `media` directory in root dir
+Media files are stored into `wp-content\uploads\{name}`
+Previously it was stored in `media` inside root, but Gravity form had some problem with it.
+
+#### .HTACCESS Important
+
+Add this code to .htaccess file to prevent access for your .env files
+`<Files ~ "^.*\.([Ee][Nn][Vv])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>`
 
 ##### WORDPRESS MUST USE PLUGINS 
 
