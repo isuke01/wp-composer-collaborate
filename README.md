@@ -34,11 +34,13 @@ Previously it was stored in `media` inside root, but Gravity form had some probl
 #### .HTACCESS Important
 
 Add this code to .htaccess file to prevent access for your .env files
-`<Files ~ "^.*\.([Ee][Nn][Vv])">
+```
+<Files ~ "^.*\.([Ee][Nn][Vv])">
  order allow,deny
  deny from all
  satisfy all
-</Files>`
+</Files>
+```
 
 ##### WORDPRESS MUST USE PLUGINS 
 
