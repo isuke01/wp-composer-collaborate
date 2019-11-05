@@ -55,7 +55,7 @@ define('WP_HOME', WP_SHEME.'://' . $_SERVER['HTTP_HOST'] );
 define('WP_SITEURL', WP_SHEME.'://' . $_SERVER['HTTP_HOST'] . '/system');
 
 /* We store all medias inside main folder */
-define( 'UPLOADS', '../media' );
+//define( 'UPLOADS', '../media' );
 //MUST be set, otherwise theme directory MUST be inside of plugin Directory!
 /* @DOCS You cannot move the themes folder because its path is hardcoded relative to the wp-content folder:*/
 define( 'WP_CONTENT_DIR', WP_SERVER_ROOT . '/wp-content' );
